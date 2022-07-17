@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>csv file</title>
+    <script src="https://unpkg.com/xlsx/dist/shim.min.js"></script>
+    <script lang="javascript" src="https://unpkg.com/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+    <h1>CONVERTER EXCEL TO CSV</h1>
+    <h1 id="csv">SELECT CSV FILE</h1><br />
+    <input type="file" id="file-selector">
+    <!-- there is button,this allow to select the file -->
+    <button onclick="convertTocsv()">convert</button>
+    
+    <input type="file" id="new_file-selector"><br/><br/>
+    <strong>Sample Input:</strong>
+    <table id="table"></table><br/><br/>
+    <strong>Aggregated Output :</strong>
+    <table id="table2"></table>
+    
+</body>
+<script src="./input.js"></script>
+<script src="./output.js"></script>
+</html>

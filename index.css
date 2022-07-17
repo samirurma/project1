@@ -1,0 +1,29 @@
+td{
+    border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+
+}
+strong{
+    margin-left: 45%;
+}
+#new_file-selector{
+    float: right;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;width: 35%;
+    display: inline-block;
+}
+#csv{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+    width: 25%;
+    float: right;
+    
+}
+/* body{
+    background: ;
+} */
